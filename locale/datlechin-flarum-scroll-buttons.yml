@@ -1,0 +1,14 @@
+datlechin-flarum-scroll-buttons:
+  admin:
+    scroll_to_top:
+      label: Gore
+      help: Prikaži dugmić za povratak na vrh stranice
+      icon:
+        label: Ikon(ic)a (povratka) na vrh
+        help: Prilagodite ikon(ic)u dugmića. Ostavite prazno ukoliko želite koristiti predloženu ikon(ic)u.
+    scroll_to_bottom:
+      label: Dolje
+      help: Prikaži dugmić za spuštanje na dno stranice
+      icon:
+        label: Ikon(ic)a (ka) dolje
+        help: Prilagodite ikon(ic)u dugmića. Ostavite prazno ukoliko želite koristiti predloženu ikon(ic)u.

@@ -1,0 +1,9 @@
+justoverclock-country-flags:
+  admin:
+    countryColumn: Država
+    showFlagsOnPosts: Prikaži zastav(ic)e uz objave
+  forum:
+    inputCountryCode: Šifrarnik država
+    saveButton: Spremi
+    clickToSelectCountry: Kliknite za izbor države
+    countrySaved: Izbor države spremljen!
