@@ -28,7 +28,7 @@
         "flarum/core": "^1.5"
     },
     "suggest": {
-		"project1537/flarum-lang-bosnian": "Bosnian Language Pack for Flarum Core and Multiple Extensions"
+		"https://github.com/mensurkerla/flarumbs": "Bosnian Language Pack for Flarum Core and Multiple Extensions"
 	},
 	"support": {
     "issues": "https://github.com/mensurkerla/flarumbs/issues",
