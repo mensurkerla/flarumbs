@@ -3,11 +3,11 @@
 
 ![Bosnia and Herzegovina](https://user-images.githubusercontent.com/79749042/120553747-27fb8480-c3f9-11eb-98b0-ddaa6b26cfac.png)
 
-<b>LATEST VERSION:</b> 2.0.8
+<b>LATEST VERSION:</b> 1.0
 
-<b>RELEASE DATE:</b> 2022-08-15
+<b>RELEASE DATE:</b> 2022-09-29
 
-<b>SOFTWARE COMPATIBILITY:</b> FLARUM ^1.4.1
+<b>SOFTWARE COMPATIBILITY:</b> FLARUM ^1.5
 
 <b>LICENSE:</b> MIT LICENSE
 
@@ -17,15 +17,15 @@
 ### INSTALL
 Flarum use Composer to manage its dependencies and extensions. The Bosnian Language Pack for Flarum Core and Multiple Extensions is available on Packagist and can be managed that way. Make sure that Composer v2.0 is installed on your machine, then run the following command in the location where Flarum is installed:
 
-<code>composer require project1537/flarum-lang-bosnian:"*"</code>
+<code>composer require mensurkerla/flarumbs:"*"</code>
 
 
 ### UPDATE
 Just like the installation procedure, make sure that Composer v2.0 is installed on your machine, then run the following commands in the location where Flarum is installed:
 
-<code>composer update project1537/flarum-lang-bosnian</code>
+<code>composer update mensurkerla/flarumbs</code>
 
 <code>php flarum cache:clear</code>
 
 ### REMOVE
-<code>composer remove project1537/flarum-lang-bosnian</code>
+<code>composer remove mensurkerla/flarumbs</code>
