@@ -1,12 +1,12 @@
 {
-    "name": "project1537/flarum-lang-bosnian",
+    "name": "mensurkerla/flarumbs",
     "type": "flarum-extension",
     "description": "Bosnian Language Pack for Flarum Core and Multiple Extensions",
     "keywords": ["locale"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/project1537/flarum-lang-bosnian/issues",
-        "source": "https://github.com/project1537/flarum-lang-bosnian",
+        "issues": "https://github.com/mensurkerla/flarumbs/issues",
+        "source": "https://github.com/mensurkerla/flarumbs",
         "forum": "https://discuss.flarum.org/",
         "docs": "https://flarum.org/docs/"
     },
@@ -25,21 +25,21 @@
         }
     ],
     "require": {
-        "flarum/core": "^1.4.1"
+        "flarum/core": "^1.5"
     },
     "suggest": {
 		"project1537/flarum-lang-bosnian": "Bosnian Language Pack for Flarum Core and Multiple Extensions"
 	},
 	"support": {
-    "issues": "https://github.com/project1537/flarum-lang-bosnian/issues",
-    "source": "https://github.com/project1537/flarum-lang-bosnian"
+    "issues": "https://github.com/mensurkerla/flarumbs/issues",
+    "source": "https://github.com/mensurkerla/flarumbs"
 	},
     "extra": {
         "branch-alias": {
             "dev-master": "0.1.x-dev"
         },
         "authors": [{
-			"name": "project1537",
+			"name": "flarumbs",
 			"role": "Translator"
 		}],
         "flarum-extension": {
