@@ -26,7 +26,7 @@ fof-subscribed:
             newDiscussion: "[Pretplata | Nova diskusija] {title}"
             newUser: "[Pretplata | Novi korisnik] {username}"
             postUnapproved: "[Pretplata | Neodobrena objava] {username} je upisao/la novu objavu u diskusiji o temi {title}"
-            postCreated: "[Pretplata | Nova objava] {username} wrote a new post in {title}"
+            postCreated: "[Pretplata | Nova objava] {username} je upisao/la novu objavu u diskusiji o temi {title}"
             postFlagged: "[Pretplata | Nova prijava neprimjerene objave] {username} je prijavio/la neprimjerenu objavu u diskusiji o temi {title}"
         body:
             newDiscussion: |
