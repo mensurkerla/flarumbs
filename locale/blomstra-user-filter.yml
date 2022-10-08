@@ -8,11 +8,11 @@ blomstra-user-filter:
   forum:
     index_page:
       filter_user:
-        accessible_label: Filter po autorima
+        accessible_label: Filter korisnika
         all: Svi
-        label: "Filtriraj po autorima: {text}"
+        label: "Filter korisnika: {text}"
         search_label: Pretraživanje korisnika..
         no_results: Bez rezultata
-        start_typing: Počni upisivati...
+        start_typing: Upišite korisničko ime...
         keep_typing: Nastavite upisivati...
         remove_filter: Ukloni filter autora
