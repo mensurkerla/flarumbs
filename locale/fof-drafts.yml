@@ -2,16 +2,16 @@ fof-drafts:
   admin:
     permissions:
       start: Kreiraj nacrte
-      schedule: Zakaži nacrte
+      schedule: Zakaži objavu nacrta
     settings:
       title: Nacrti
       enable_scheduled_drafts: Omogući zakazivanje nacrta
       schedule_on_one_server: Use 'onOneServer()' directive for the task scheduler (requires Redis/Memcache)
       schedule_log_output: Append scheduler output to log storage
   console:
-    scheduled_drafts_disabled: Zakazivanje nacrta trenutno je onemogućeno u postavkama.
+    scheduled_drafts_disabled: Zakazivanje objave nacrta trenutno je onemogućeno u postavkama.
   ref:
-    schedule_draft: Zakaži nacrt
+    schedule_draft: Zakaži objavu nacrta
   forum:
     composer:
       title: Spremi nacrt
@@ -38,9 +38,9 @@ fof-drafts:
       scheduled_error: "Nije moguće objaviti nacrt. Greška: {error}."
       unschedule_button: Otkaži
       unschedule_warning: Sigurni ste da želite otkazati ovaj nacrt?
-      reschedule_button: Ponovo zakaži
+      reschedule_button: Ponovo zakaži objavu
       schedule_button: Zakaži
-      schedule_time_preview: This draft will be automatically published on <b>{datetime}</b>.
+      schedule_time_preview: Ovaj nacrt bit će automatski objavljen <b>{datetime}</b>.
       # String passed to dayjs.format() to generate the preview
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: Pogrešan format datuma i/ili vremena
