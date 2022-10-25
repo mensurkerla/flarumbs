@@ -10,7 +10,7 @@ fof-discussion-language:
       choose_language_link: Jezik
 
     discussion_controls:
-      change_language_button: Izaberi jezik diskusije
+      change_language_button: Uredi jezik diskusije
 
     index_language:
       any: Svi jezici
