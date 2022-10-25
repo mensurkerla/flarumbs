@@ -21,7 +21,7 @@ fof-discussion-language:
       show_flag_label: Prikaži zastav(ic)e države uz naziv jezika
       composer_default_label: Unaprijed odaberite trenutni jezik u sastavljaču diskusija
       locale_sort_label: Koristi otkriveni jezik za zadani filter rasprave
-      show_any_lang_opt_label: Prikažite opciju prikazivanja "Svi jezici"
+      show_any_lang_opt_label: Prikažite opciju "Svi jezici"
       tags_page_discussion_locale_label: Na stranici Oznake prikaži samo rasprave s trenutne lokacije korisnika
 
       errors:
