@@ -65,7 +65,7 @@ fof-gamification:
         auto_upvote: Automatski glasaj ZA nove objave
         rate_limit: Postavi vremensko ograničenje za glasanje (10 sekundi)
         discussion_page: Prikaži ukupan broj glasova za originalnu objavu u listi diskusija
-        alternate_layout: Koristi alternativni prikaz za Use alternate layout to show and/or do upvotes/downvotes
+        alternate_layout: Koristi alternativni prikaz za prikaz glasova
         alternate_post_layout: Koristi alternativni prikaz glasanja
         title: Glasovi
         vote_color: Boja
