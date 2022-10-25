@@ -73,6 +73,7 @@ fof-gamification:
         icon_help: "Unesite naziv bilo koje Font-Awesome ikonice koja ima sufikse -up i -down. Primjer: arrow, thumbs, chevron"
         upvotes_only: Dozvoli glasanje samo ZA
         first_post_only: Dozvoli glasanje ZA/PROTIV samo u prvoj objavi u diskusiji
+        allow_self_votes: Korisnici mogu glasati ZA/PROTIV vlastitih objava
       save_settings: Spremi postavke
       convert:
         button: Konvertuj sviđanja u glasove ZA
