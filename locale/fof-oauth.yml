@@ -66,7 +66,17 @@ fof-oauth:
       with_google_button: '=> fof-oauth.forum.log_in.with_button'
       with_linkedin_button: '=> fof-oauth.forum.log_in.with_button'
       with_twitter_button: '=> fof-oauth.forum.log_in.with_button'
-
+      
+    user:
+      settings:
+        linked-account:
+          label: Povezani računi
+          last-used-label: Posljednji put korišten
+          link-created-label: (Po)vez(nic)a kreirana
+          orphaned-account: Ranije ste se registrirali/prijavili koristeći ovaj provajder. U međuvremenu je na ovom Forumu onemogućena registracija/prijava ovom metodom/pomoću ovog provajdera.
+          help: Ovi povezani korisnički računi omogućavaju Vam prijavu na forum koristeći druge provajdere (Google, Twitter, Facebook, Twitter...).
+          identifier-label: "{provider} ID"
+          unlink-confirm: Sigurni ste da želite ukloniti (po)vez(nic) sa {provider}? Nećete moći prijaviti se na ovaj Forum ukoliko ponovo ne izvršite autentifikaciju.
     # Modify these if you need to change how the provider name
     # appears in the log in button.
     providers:
@@ -80,6 +90,8 @@ fof-oauth:
 
     signup:
       username_help: Molimo Vas izaberite korisničko ime
+      
+    unlink: Ukloni (po)vez(nic)u
 
     error:
       bad_verification_code: Pogrešan ili istekao verifikacijski token. Molimo pokušajte ponovo.
@@ -102,4 +114,3 @@ fof-oauth:
 
       client_id: Client ID
       client_secret: Client Secret
-
