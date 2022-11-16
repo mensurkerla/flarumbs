@@ -7,6 +7,9 @@ flarum-mentions:
   # Translations in this namespace are used by the admin interface.
   admin:
 
+    # These translations are used in the mentions permissions
+    permissions:
+      mention_groups_label: Spominjanje grupa
     # These translations are used in the mentions Settings page.
     settings:
       allow_username_format_label: Dozvoli spominjanje/citiranje registrovanih korisnika u formatu (@korisnik)
@@ -19,7 +22,7 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      mention_tooltip: Spomeni korisnika ili objavu
+      mention_tooltip: Spomeni korisnika, grupu ili objavu
       reply_to_post_text: "Odgovori #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
@@ -27,6 +30,7 @@ flarum-mentions:
       others_text: => core.ref.some_others
       post_mentioned_text: "{username} je odgovorio/la na vašu objavu"  # Can be pluralized to agree with the number of users!
       user_mentioned_text: "{username} vas je spomenuo/la"
+      group_mentioned_text: "{username} je spomenuo/la grupu kojoj pripadate"
 
     # These translations are displayed beneath individual posts.
     post:
@@ -41,6 +45,7 @@ flarum-mentions:
     settings:
       notify_post_mentioned_label: Neko je odgovorio na neku od mojih objava
       notify_user_mentioned_label: Neko me je spomenuo u objavi
+      notify_group_mentioned_label: Neko je u objavi spomenuo grupu kojoj pripadam
 
     # These translations are used in the user profile page and profile popup.
     user:
@@ -49,6 +54,9 @@ flarum-mentions:
     # These translations are used in the post mentions
     post_mention:
       deleted_text: "[nepoznato]"
+      
+    group_mention:
+      deleted_text: "[nepoznata grupa]"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -80,4 +88,16 @@ flarum-mentions:
         ---
 
         {content}
-        
+   # These translations are used in emails sent when a group is mentioned
+    group_mentioned:
+      subject: "{mentioner_display_name} je spomenuo/la grupu kojoj pripadate u diskusiji o temi {title}"
+      body: |
+        Poštovani/na {recipient_display_name}!
+
+        {mentioner_display_name} je spomenuo/la grupu kojoj pripadate u diskusiji o temi {title}.
+
+        {url}
+
+        ---
+
+        {content}
