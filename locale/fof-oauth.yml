@@ -74,7 +74,7 @@ fof-oauth:
           last-used-label: Posljednji put korišten
           link-created-label: (Po)vez(nic)a kreirana
           orphaned-account: Ranije ste se registrirali/prijavili koristeći ovaj provajder. U međuvremenu je na ovom Forumu onemogućena registracija/prijava ovom metodom/pomoću ovog provajdera.
-          help: Ovi povezani korisnički računi omogućavaju Vam prijavu na forum koristeći druge provajdere (Google, Twitter, Facebook, Twitter...).
+          help: Ovi povezani korisnički računi omogućavaju Vam prijavu na forum koristeći druge provajdere (Google, Twitter, Facebook...).
           identifier-label: "{provider} ID"
           unlink-confirm: Sigurni ste da želite ukloniti (po)vez(nic) sa {provider}? Nećete moći prijaviti se na ovaj Forum ukoliko ponovo ne izvršite autentifikaciju.
     # Modify these if you need to change how the provider name
