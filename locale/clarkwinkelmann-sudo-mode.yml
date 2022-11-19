@@ -9,7 +9,7 @@ clarkwinkelmann-sudo-mode:
                 Potvrdite šifru za aktiviranje 'sudo' načina.
                 Nakon par sati bit će potrebno da se ponovo prijavite i potvrdite pristup.
             password: Šifra
-            submit: Pošalji
+            submit: Potvrdi
     api:
         errors:
             cookieOnly: DOstupno samo uz kolačiće (Cookies)
