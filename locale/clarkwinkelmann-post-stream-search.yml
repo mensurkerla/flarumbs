@@ -22,10 +22,10 @@ clarkwinkelmann-post-stream-search:
         discussionControls:
             searchInDiscussion: Pretraži diskusiju
         postControls:
-            authorFilter: Prikaži objave samo (od) ovog autora
+            authorFilter: Prikaži objave samo ovog autora
         post:
             opBadge: Autor diskusije
-            opBadgeTooltip: Klikni za prikaz objava/odgovora samo (od) ovog korisnika
+            opBadgeTooltip: Klikni za prikaz objava/odgovora samo ovog korisnika
         cannotGoToPost:
             message: Nije moguće prikazati objavu
             action: Pokušaj uklanjanjem filtera
