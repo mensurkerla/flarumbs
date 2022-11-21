@@ -1,5 +1,7 @@
 fof-polls:
   admin:
+    settings:
+      allow_option_image: Dozvoli da URL slike bude priložen uz svaki odgovor/opciju ankete
     permissions:
       view_results_without_voting: Pregled rezultata ankete bez učešća (glasanja)
       start: Započni anketu
@@ -28,6 +30,7 @@ fof-polls:
       min: Anketa treba sadržavati minimalno 2 odgovora/opcije
       no_voters: Još uvijek bez odgovora
       option_placeholder: Odgovor
+      image_option_placeholder: URL slike (opcionalno)
       options_label: Odgovori
       public_poll_label: Dozvoli korisnicima pregled učesnika ankete
       question_placeholder: Pitanje
